@@ -1,7 +1,10 @@
-var http = require('http'),
-    port = process.env.PORT || 8001
+require.paths.unshift("vendor/lib")
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'})
-  res.end('Hello World\n')
-}).listen(parseInt(port))
+// require express and others to make sure
+require("express")
+require("connect")
+require("jade")
+require("sass")
+
+//require the actual express app
+require ("./lib/app")
