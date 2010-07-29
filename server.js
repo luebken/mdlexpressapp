@@ -7,4 +7,4 @@ require("jade")
 require("sass")
 
 //require the actual express app
-require ("./lib/app")
+//require ("./lib/app")
