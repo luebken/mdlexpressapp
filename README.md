@@ -8,7 +8,7 @@ Have fun.
 
 Links
 ------
-http://github.com/visionmedia/express/tree/master/examples/jade/ [1]
-http://github.com/visionmedia/express [2]
-http://blog.heroku.com/archives/2010/4/28/node_js_support_experimental/ [3]
+* http://github.com/visionmedia/express/tree/master/examples/jade/ [1]
+* http://github.com/visionmedia/express [2]
+* http://blog.heroku.com/archives/2010/4/28/node_js_support_experimental/ [3]
  
