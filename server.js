@@ -1,7 +1,7 @@
 require.paths.unshift("vendor/lib")
 
 // require express and others to make sure
-//require("express")
+require("express")
 require("connect")
 //require("jade")
 //require("sass")
@@ -14,5 +14,5 @@ var http = require('http'),
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'})
-  res.end('Hello World 2\n')
+  res.end('Hello World 3\n')
 }).listen(parseInt(port))
